@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'vahan-django.herokuapp.com',
+    'vahan-portal.herokuapp.com',
     '127.0.0.1'
 ]
 
