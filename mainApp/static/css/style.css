@@ -161,7 +161,7 @@ p {
 .content {
     height: 700px;
     margin: 0 auto;
-    padding: 25px 25px 65px 25px; 
+    padding: 0 0 65px 0;
     overflow: hidden;
 }
 
@@ -174,7 +174,7 @@ p {
 .right-content, .left-content {
     width: 200px;
     height: 240px;
-    margin-right: 50px;
+    margin: 25px 25px 50px 25px;
     float: left;
 }
 
