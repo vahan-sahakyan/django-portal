@@ -39,16 +39,16 @@ ol {
 
 a {
     text-decoration: none;
-    color: #bbbcbe;
-}
-
-ul a:active {
-    color: #5E737E;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 a:hover {
     text-decoration: none;
-    color: #5294E2;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+ul a:active {
+    color: rgba(255, 255, 255, 0.4);
 }
 
 p {
@@ -68,7 +68,8 @@ p {
 
 .navbar-dark .navbar-brand label {
     font-family: 'Poppins', sans-serif;
-    color: #394952;
+    color: #5b7bC5;
+
     font-size: 26px;
 }
 
@@ -155,7 +156,8 @@ p {
 .wrapper {
     /*width: 89%;*/
     margin: 0 auto;
-    background: #2B3346;
+    background: #1F2021;
+    /*background: #2B3346;*/
 }
 
 .content {
