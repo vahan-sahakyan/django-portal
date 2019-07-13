@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="theme-color" content="#2F2F2F" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vahan Sahakyan</title>
+                    {% load staticfiles %}
+        <link href="{% static 'bootstrap/css/bootstrap.css' %}" rel="stylesheet" />
+        <link href="{% static 'css/style.css' %}" type="text/css" rel="stylesheet" />
+    </head>
+    <body style="box-sizing: unset;">
+        <div class="header">
+            <div class="#hd-container">
+                <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+                    <a class="navbar-brand"><label for="btn">Navigation</label></a>
+
+                    <button id="btn" class="navbar-toggler" type='button' data-toggle="collapse" data-target="#navbarSupportedContent">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="span page-top">
+            <div class="span cover">
+                <div class="col-lg-6 cover-pic">
+                    <img src="{% static 'mainApp/image/cover_bg.jpg' %}" alt="Vahan" />
+                </div>
+                <div class="col-lg-6 cover-text">
+                    <div class="span text">
+                        <h2>Vahan<br />Sahakyan</h2>
+                        <h3>Programmer</h3>
+                        <p>Let me represent you my simple Portal-Page. Its main purpose is to combine my content, and make it easier to surf through the links that I use and work with regularly.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="span clear"></div>
+            <div class="span line"></div>
+        </div>
+        <div class="span wrapper">
+            <div class="span content">
+                <div class="span left-content">
+                    <h3>BPC &#43;</h3><br />
+                    <ul>
+                        <li><a href="https://bpcarm.org/" target="_blank">BPC Official</a></li>
+                        <li><a href="https://www.facebook.com/bpcarm/" target="_blank">BPC Facebook</a></li>
+                        <li><a href="https://gitlab.com/vahan.sahakyan/" target="_blank">my GitLab</a></li>
+                        <li><a href="http://reviewboard.bpcarm.org/users/vahan.sahakyan/" target="_blank">my ReviewBoard</a>
+                            <ol>
+                                <li>&gt;&gt;<a href="https://www.linkedin.com/in/vahan-sahakyan-a90809171/" target="_blank"> my Linkedin</a></li>
+                                <li>&gt;&gt;<a href="https://www.youtube.com/channel/UCzVHOR8ZthUlZI6rHBDVyEg/" target="_blank"> my YouTube</a></li>
+                            </ol>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="span footer"></div>
+        <script src="{% static 'js/jquery.min.js' %}"></script>
+        <script src="{% static 'js/bootstrap.min.js' %}"></script>
+        <script src="{% static 'js/popper.min.js' %}"></script>
+    </body>
+</html>

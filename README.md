@@ -1,1 +1,1 @@
-# django-portal
+# myDjango
