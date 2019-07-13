@@ -6,10 +6,17 @@
         <meta name="theme-color" content="#2F2F2F" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Vahan Sahakyan</title>
-                    {% load staticfiles %}
+
+        <!-- static files --> {% load staticfiles %}
         <link href="{% static 'bootstrap/css/bootstrap.css' %}" rel="stylesheet" />
         <link href="{% static 'css/style.css' %}" type="text/css" rel="stylesheet" />
+
+        <!-- favicon -->
+        <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+        <link rel="icon" href="favicon.png" type="image/x-icon" />
     </head>
+
+
     <body>
         {% include "mainApp/includes/navbar_header.html" %}
         {% include "mainApp/includes/page_top.html" %}
